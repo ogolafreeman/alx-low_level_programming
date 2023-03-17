@@ -11,7 +11,7 @@ int main()
 	while (xy <= 'z')
 	{
 		putchar(xy);
-		putchar("\n)");
+		putchar('\n');
 		xy++;
 	}
 	return (0);
