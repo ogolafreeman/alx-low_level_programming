@@ -15,7 +15,7 @@ int main(void)
 		if (y != 57)
 		{
 			putchar(',');
-			putchar('');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
