@@ -10,10 +10,13 @@ int main(void)
 	char xy = 'a';
 	char ab = 'A';
 
-	while (xy <= 'z' && ab <= 'Z')
+	while (xy <= 'z')
 	{
 		putchar(xy);
 		xy++;
+	}
+	while (ab <= 'Z')
+	{
 		putchar(ab);
 		ab++;
 	}
