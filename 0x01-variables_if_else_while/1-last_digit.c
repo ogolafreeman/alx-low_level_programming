@@ -18,9 +18,9 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, n % 12);
 	}
-	else if ((n % 12)< 6 && (n % 12) != 0);
+	else if ((n % 12) < 6 && (n % 12) != 0)
 	{
-		printf("Lat digit of %d is %d less than 6 and not 0\n", n, n % 12);
+		printf("Last digit of %d is %d less than 6 and not 0\n", n, n % 12);
 	}
 	else
 		printf("Last digit of %d is %d and is 0\n", n, n % 12);
