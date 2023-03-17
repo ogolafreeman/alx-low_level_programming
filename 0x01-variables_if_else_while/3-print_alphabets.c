@@ -13,8 +13,8 @@ int main(void)
 	while (xy <= 'z' && ab <= 'Z')
 	{
 		putchar(xy);
+		xy++
 		putchar(ab);
-		xy++;
 		ab++;
 	}
 	putchar('\n');
