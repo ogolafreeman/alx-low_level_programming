@@ -6,8 +6,7 @@
  */
 int main(void)
 {
-	char xy = 'z';
-	
+	char xy = 'z';	
 	while (xy >= 'a')
 	{
 		putchar(xy);
