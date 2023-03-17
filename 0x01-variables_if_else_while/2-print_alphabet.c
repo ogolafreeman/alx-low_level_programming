@@ -11,7 +11,6 @@ int main(void)
 	while (xy <= 'z')
 	{
 		putchar(xy);
-	putchar('\n');
 		xy++;
 	}
 	return (0);
