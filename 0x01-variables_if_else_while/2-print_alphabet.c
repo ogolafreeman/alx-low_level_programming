@@ -10,7 +10,7 @@ int main(void)
 
 	while (xy <= 'z')
 	{
-		putchar((xy), '\n');
+		putchar(xy);
 		xy++;
 	}
 	return (0);
