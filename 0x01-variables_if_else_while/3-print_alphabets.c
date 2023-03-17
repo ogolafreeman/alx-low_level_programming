@@ -13,7 +13,7 @@ int main(void)
 	while (xy <= 'z' && ab <= 'Z')
 	{
 		putchar(xy);
-		xy++
+		xy++;
 		putchar(ab);
 		ab++;
 	}
