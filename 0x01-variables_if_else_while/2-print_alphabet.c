@@ -4,14 +4,14 @@
  *
  * Return: Always 0 (success)
  */
-int main()
+int main(void)
 {
 	char xy = 'a';
 
 	while (xy <= 'z')
 	{
 		putchar(xy);
-		putchar('\n');
+	putchar('\n');
 		xy++;
 	}
 	return (0);
