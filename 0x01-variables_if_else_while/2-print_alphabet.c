@@ -6,13 +6,13 @@
  */
 int main()
 {
-	char xy = ' a ';
+	char xy = 'a';
 
 	while (xy <= 'z')
 	{
 		putchar(xy);
 		putchar("\n)");
-		xy++,
+		xy++;
 	}
 	return (0);
 }
