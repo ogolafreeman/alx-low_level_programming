@@ -3,24 +3,24 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (Sucess)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int a, b;
+	int x, y;
 
-	for (a = 0; a < 100; a++)
+	for (x = 0; x < 100; x++)
 	{
-		for (b = 0; b < 100; b++)
+		for (y = 0; y < 100; y++)
 		{
-			if (a < b)
+			if (x < y)
 			{
-				putchar((a / 10) + 48);
-				putchar((a % 10) + 48);
+				putchar((x / 10) + 48);
+				putchar((x % 10) + 48);
 				putchar(' ');
-				putchar((b / 10) + 48);
-				putchar((b % 10) + 48);
-				if (a != 98 || b != 99)
+				putchar((y / 10) + 48);
+				putchar((y % 10) + 48);
+				if (x != 98 || y != 99)
 				{
 					putchar(',');
 					putchar(' ');
@@ -30,4 +30,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}	
+}
