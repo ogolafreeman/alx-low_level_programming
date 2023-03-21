@@ -20,7 +20,7 @@ void print_to_98(int n)
 	}
 	else if (n >= 98)
 	{
-		for (y = n; u >= 98; y++)
+		for (y = n; y >= 98; y++)
 		{
 			if (y != 98)
 				printf("%d, ", y);
