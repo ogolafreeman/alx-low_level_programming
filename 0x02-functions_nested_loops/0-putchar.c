@@ -1,11 +1,11 @@
 #include "main.h"
-	#include<unistd.h>
+#include<unistd.h>
 /**
- * main -Entry Point
+ * main - Entry point
  *
- * Return: always 1 (success)
+ * return: on success 1
  */
 int _putchar(char c)
 {
-	return (write(1,&c, 1));
+	return(write(1, &c, 1));
 }
