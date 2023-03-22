@@ -19,11 +19,11 @@ int main(void)
 		{
 			sum = sum + y;
 		}
-		++x;
 		next = y + z;
 		y = z;
 		z = next;
 	}
+	++x;
 	printf("%lu\n", sum);
 	return (0);
 }
