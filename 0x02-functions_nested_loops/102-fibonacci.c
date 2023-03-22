@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main prints first fibonacci numbers starting from 1 and 2
+ * main - prints first fibonacci numbers starting from 1 and 2
  * seperated by comma followed by space
  *
  * Return:Always 0
