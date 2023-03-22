@@ -20,17 +20,16 @@ void print_times_table(int n)
 				_putchar(' ');
 
 				z = x * y;
-				if (z <= 98 && z <= 9)
-				{
+				if (z <= 98)
 					_putchar(' ');
+				if (z <= 9)
 					_putchar(' ');
-				}
 				if (z >= 100)
 				{
 					_putchar((z / 100) + 'o');
 					_putchar(((z / 10)) % 10 + '0');
 				}
-				else if (z <= 99 && z>= 10)
+				else if (z <= 99 && z >= 10)
 				{
 					_putchar((z / 10) + '0');
 				}
