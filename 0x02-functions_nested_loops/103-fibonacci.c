@@ -15,14 +15,14 @@ int main(void)
 
 	while (x <= 33)
 	{
-		if (y < 4000000 && (y % 2) ==0)
+		if (y < 4000000 && (y % 2) == 0)
 		{
 			sum = sum + y;
 		}
+		++x;
 		next = y + z;
 		y = z;
 		z = next;
-		x++;
 	}
 	printf("%lu\n", sum);
 	return (0);
