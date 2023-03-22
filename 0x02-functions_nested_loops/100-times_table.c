@@ -6,16 +6,13 @@
  */
 void print_times_table(int n)
 {
+	int x, y, z;
+
 	if (n >= 0 && n <= 15)
 	{
-		int x = 0;
-
-		while (x <= n)
+		for (x = 0; x <= n; x++)
 		{
-			int y = 0;
-			int z;
-
-			while (y <= n)
+			for (y = 0; y <= n; y++)
 			{
 				z = y * x;
 
@@ -48,9 +45,7 @@ void print_times_table(int n)
 					_putchar((z % 10) + '0');
 				}
 			}
-			y++;
+			_putchar('\n');
 		}
-		_putchar('\n');
-		x++;
 	}
 }
