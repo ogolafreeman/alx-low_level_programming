@@ -6,14 +6,13 @@
  */
 int main(void)
 {
-	int x = 0;
+	int x;
 	unsigned long y, z, next, sum;
 
 	y = 1;
 	z = 2;
 	sum = 0;
-
-	while (x <= 33)
+	for (x = 1; x <= 33; ++x)
 	{
 		if (y < 4000000 && (y % 2) == 0)
 		{
@@ -23,7 +22,6 @@ int main(void)
 		y = z;
 		z = next;
 	}
-	++x;
 	printf("%lu\n", sum);
 	return (0);
 }
