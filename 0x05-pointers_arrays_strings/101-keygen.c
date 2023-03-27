@@ -20,8 +20,8 @@ int main(void)
 	for (x = 0; x < 100; x++)
 	{
 		pass[x] = rand() % 78;
-		y += (pass[a] + '0');
-		putchar(pass[a] + '0');
+		y += (pass[x] + '0');
+		putchar(pass[x] + '0');
 		if ((2772 - y) - '0' < 78)
 		{
 			z = 2772 - y - '0';
