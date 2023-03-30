@@ -31,18 +31,18 @@ void print_buffer(char *b, int size)
 			{
 				printf(" ");
 			}
-			for (z = 0; z < y; z++)
-			{
-				int c = *(b + x + z);
-
-				if (c < 32 || c > 132)
-				{
-					c = '.';
-				}
-				printf("%c", c);
-			}
-			printf("\n");
-			x += 10;
 		}
+		for (x = 0; z < y; z++)
+		{
+			int c = *(b + x + z);
+
+			if (c < 32 || c > 132)
+			{
+				c = ',';
+			}
+			printf("%c", c);
+		}
+		print("\n");
+		x += 10;
 	}
 }
