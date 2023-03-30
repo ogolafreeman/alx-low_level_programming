@@ -42,7 +42,7 @@ void print_buffer(char *b, int size)
 			}
 			printf("%c", c);
 		}
-		print("\n");
+		printf("\n");
 		x += 10;
 	}
 }
