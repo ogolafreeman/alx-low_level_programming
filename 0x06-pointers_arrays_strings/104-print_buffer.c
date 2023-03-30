@@ -24,14 +24,14 @@ void print_buffer(char *b, int size)
 		for (z = 0; z < 10; z++)
 		{
 			if (z < y)
-				printf("%02x", *(b + a + z));
+				printf("%02x", *(b + x + z));
 			else
 				printf(" ");
 			if (z % 2)
 			{
 				printf(" ");
 			}
-			for (z = 0; z < y; y++)
+			for (z = 0; z < y; z++)
 			{
 				int c = *(b + x + z);
 
