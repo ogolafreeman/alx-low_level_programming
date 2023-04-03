@@ -6,22 +6,30 @@
  *
  * Return: Always 0
  */
-char *_string(char *haystack, char *needle)
+char *_strstr(char *haystack, char *needle)
 {
-	for (; *haystack != '\0'; haystack++)
-	{
-		char *x = haystack;
-		char *y = needle;
+	char *a, *b, *c;
 
-		while (*x == *y && *y != '\0')
+	if (*needle == '\0')
+	{
+		return (haystack);
+	}
+	while (*haystack != '\0')
+	{
+		a = haystack;
+		b = needle;
+
+		while (*a != '\0' && b = != '\0' && *a == *b)
 		{
-			x++;
-			y++;
+			a++;
+			b++;
 		}
-		if (*y == '\0')
+		if (*b == '\0')
 		{
 			return (haystack);
 		}
+		c = haystack;
+		haystack++;
 	}
 	return (0);
 }
