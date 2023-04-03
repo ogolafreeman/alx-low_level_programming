@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * print_chesboard - Prints a chessboard arranged in order
- * @a - array
+ * print_chessboard - Prints a chessboard arranged in order
+ * @a: array
  * Return: Always 0
  */
-void print_chessbaord(char (*a)[8])
+void print_chessboard(char (*a)[8])
 {
 	int m, n;
 
