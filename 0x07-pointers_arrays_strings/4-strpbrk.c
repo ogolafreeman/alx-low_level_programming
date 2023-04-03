@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strpbk -Enrty point
+ * _strpbrk - Enrty point
  * @s: input value
  * @accept: input value
  *
