@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 
 int helper_sqrt_recursion(int n, int x);
 /**
