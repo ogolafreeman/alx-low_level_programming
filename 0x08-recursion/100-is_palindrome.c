@@ -15,7 +15,7 @@ int is_palindrome(char *s)
 	{
 		return (1);
 	}
-	return (ceck1(s, 0, check2(s)));
+	return (check1(s, 0, check2(s)));
 }
 /**
  * check2 - returns the length of a string
