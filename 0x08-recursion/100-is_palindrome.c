@@ -25,7 +25,7 @@ int is_palindrome(char *s)
  */
 int check2(char *s)
 {
-	if (*s == '0')
+	if (*s == '\0')
 	{
 		return (0);
 	}
