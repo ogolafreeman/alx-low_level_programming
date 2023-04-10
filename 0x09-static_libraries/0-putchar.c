@@ -3,7 +3,8 @@
 
 /**
  * _putchar - writes the charachter c to stdout
- * @c: The character to print
+ * @c: The character to point
+ *
  * Return: Always 1 (success)
  */
 int _putchar(char c)
