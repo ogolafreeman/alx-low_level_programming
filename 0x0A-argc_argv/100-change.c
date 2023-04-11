@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 		printf("0\n");
 		return (0);
 	}
-	for (n = 0; n < 5 && n >= 0; n++)
+	for (n = 0; n < 5 && m >= 0; n++)
 	{
 		while (m >= coins[n])
 		{
