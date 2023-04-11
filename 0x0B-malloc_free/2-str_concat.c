@@ -1,4 +1,4 @@
-#include "maiin.h"
+#include "main.h"
 #include <stdlib.h>
 /**
  * str_concat - get ends of iput and add together for size
