@@ -3,7 +3,7 @@
 #include "main.h"
 /**
  * main - prints the minimim number of
- * coints to make for an amount of money
+ * coins to make for an amount of money
  * @argc: number of arguments
  * @argv: array of arguments
  *
