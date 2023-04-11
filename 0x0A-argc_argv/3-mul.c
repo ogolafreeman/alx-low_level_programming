@@ -39,7 +39,7 @@ int _atoi(char *s)
 	}
 	if (e == 0)
 		return (0);
-	return (C);
+	return (c);
 }
 /**
  * main - Multiplies 2 numbers
@@ -61,7 +61,7 @@ int main(int argc, char *argv[])
 	z = _atoi(argv[2]);
 	x = y * z;
 
-	printf("%d\n", X);
+	printf("%d\n", x);
 
 	return (0);
 }
