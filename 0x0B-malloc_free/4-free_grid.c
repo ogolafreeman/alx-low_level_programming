@@ -4,7 +4,8 @@
 /**
  * free_grid - frees 2nd array
  * @grid: second grid
- * @gheight: dimensions of the grid
+ * @height: dimensions of the grid
+ * Description: frees memory of grid
  * Return: Always 0
  */
 void free_grid(int **grid, int height)
