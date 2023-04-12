@@ -54,7 +54,7 @@ char **strtow(char *str)
 			{
 				finish = x;
 				typ = (char *) malloc(sizeof(char *) * (c + 1));
-				if (tmp == NULL)
+				if (typ == NULL)
 					return (NULL);
 				while (begin < finish)
 					*typ++ = str[begin++];
