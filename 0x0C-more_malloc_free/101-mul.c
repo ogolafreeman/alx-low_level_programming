@@ -43,7 +43,7 @@ int _strlen(char *s)
  */
 void errors(void)
 {
-	printf("Errot\n");
+	printf("Error\n");
 	exit(98);
 }
 /**
@@ -56,20 +56,20 @@ void errors(void)
 int main(int arg, char *avg[])
 {
 	char *m1, *m2;
-	int p, p1, p2, a, cry, d1, d2, *rst. b = 0;
+	int p, p1, p2, a, cry, d1, d2, *rst, b = 0;
 
 	m1 = avg[1], m2 = avg[2];
 
-	if (arg != 3 || !is _digit(m1) || !is_digit(m2))
+	if (arg != 3 || !is_digit(m1) || !is_digit(m2))
 		errors();
 	p1 = _strlen(m1);
 	p2 = _strlen(m2);
 	p = p1 + p2 + 1;
-	result = malloc(sizeof(int) * p);
+	rst = malloc(sizeof(int) * p);
 	if (!rst)
 		return (1);
 	for (a = 0; a <= p1 + p2; a++)
-		ret[a] 0;
+		rst[a] = 0;
 	for (p1 = p1 - 1; p1 >= 0; p1--)
 	{
 		d1 = m1[p1] - '0';
