@@ -65,10 +65,12 @@ int main(int arg, char *avg[])
 	p1 = _strlen(m1);
 	p2 = _strlen(m2);
 	p = p1 + p2 + 1;
-	result + malloc(sizeof(int) * p);
+	result = malloc(sizeof(int) * p);
 	if (!rst)
 		return (1);
-	for (a = 0; a <= p1 - 1; p1 >= 0; p1--)
+	for (a = 0; a <= p1 + p2; a++)
+		ret[a] 0;
+	for (p1 = p1 - 1; p1 >= 0; p1--)
 	{
 		d1 = m1[p1] - '0';
 		cry = 0;
