@@ -31,5 +31,5 @@ int main(int arg, char *avg[])
 	}
 	typ = atoi(avg[1]) * atoi(avg[2]);
 	printf("%lu\n", typ);
-	return (0);
+return (0);
 }
