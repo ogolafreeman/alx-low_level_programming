@@ -23,7 +23,7 @@ int main(int __attribute__((__unsed__)) arg, char *avg[])
 	op = avg[2];
 	n2 = atoi(avg[3]);
 
-	if (get_op_func(x) == NULL || x[1] != '\0')
+	if (get_op_func(op) == NULL || op[1] != '\0')
 	{
 		printf("Error\n");
 		exit(99);
@@ -33,6 +33,6 @@ int main(int __attribute__((__unsed__)) arg, char *avg[])
 		printf("Error\n");
 		exit(100);
 	}
-	printf("%d\n", get_op_func(x)(n1, n2));
+	printf("%d\n", get_op_func(op)(n1, n2));
 	return (0);
 }
