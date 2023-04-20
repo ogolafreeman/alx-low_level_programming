@@ -9,7 +9,7 @@
  *
  * Return: Always 0
  */
-int main(int __attribute__((__unsed__)) arg, char *avg[])
+int main(int __attribute__((__unused__)) arg, char *avg[])
 {
 	int n1, n2;
 	char *op;
