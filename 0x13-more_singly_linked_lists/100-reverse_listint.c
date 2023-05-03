@@ -1,4 +1,4 @@
-#inluce "lists.h"
+#include "lists.h"
 /**
  * reverse_listint - reverses a linked list
  * @head: pointer to the 1st node
