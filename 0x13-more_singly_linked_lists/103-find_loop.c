@@ -13,7 +13,7 @@ listint_t *find_listint_loop(listint_t *head)
 
 	if (!head)
 		return (NULL);
-	while (toto && fast && flash->next)
+	while (toto && flash && flash->next)
 	{
 		flash = flash->next->next;
 		toto = toto->next;
