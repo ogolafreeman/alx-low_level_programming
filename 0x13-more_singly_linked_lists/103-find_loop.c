@@ -25,7 +25,7 @@ listint_t *find_listint_loop(listint_t *head)
 				toto = toto->next;
 				flash = flash->next;
 			}
-			return (fast);
+			return (flash);
 		}
 	}
 	return (NULL);
