@@ -18,21 +18,21 @@ void print_entry(unsigned long int e_entry, unsigned char *e_ident);
 void close_elf(int elf);
 
 /**
- * check_elf - Checks if a file is an ELF file.
- * @e_ident: A pointer to an array containing the ELF magic numbers.
+ * check_elf - Checks for an ELF file
+ * @e_ident: Its a pointer to an array containing the ELF magic numbers.
  *
  * Description: If the file is not an ELF file - exit code 98.
  */
 void check_elf(unsigned char *e_ident)
 {
-	int index;
+	int ind;
 
 	for (index = 0; index < 4; index++)
 	{
-		if (e_ident[index] != 127 &&
-		    e_ident[index] != 'E' &&
-		    e_ident[index] != 'L' &&
-		    e_ident[index] != 'F')
+		if (e_ident[ind] != 127 &&
+		    e_ident[ind] != 'E' &&
+		    e_ident[ind] != 'L' &&
+		    e_ident[ind] != 'F')
 		{
 			dprintf(STDERR_FILENO, "Error: Not an ELF file\n");
 			exit(98);
@@ -48,13 +48,13 @@ void check_elf(unsigned char *e_ident)
  */
 void print_magic(unsigned char *e_ident)
 {
-	int index;
+	int ind;
 
 	printf("  Magic:   ");
 
-	for (index = 0; index < EI_NIDENT; index++)
+	for (ind = 0; ind < EI_NIDENT; ind++)
 	{
-		printf("%02x", e_ident[index]);
+		printf("%02x", e_ident[ind]);
 
 		if (index == EI_NIDENT - 1)
 			printf("\n");
