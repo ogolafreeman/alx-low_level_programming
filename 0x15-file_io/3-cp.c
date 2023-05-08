@@ -35,8 +35,7 @@ void exit_file(int xft)
 
 	if (x == -1)
 	{
-		dprintf(STDERR_FILENO,
-				"Error: Cant close xft %d\n", xft);
+		dprintf(STDERR_FILENO, "Error: Can't close xft %d\n", xft);
 		exit(100);
 	}
 }
@@ -59,8 +58,7 @@ int main(int arg, char *argv[])
 
 	if (arg != 3)
 	{
-		dprintf(STDERR_FILENO,
-				"Usage: copy file_from file_to\n");
+		dprintf(STDERR_FILENO, "Usage: copy file_from file_to\n");
 		exit(97);
 	}
 	buff = create_buff(argv[2]);
