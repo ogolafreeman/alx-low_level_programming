@@ -11,17 +11,17 @@ void exit_file(int xft);
  */
 char *create_buff(char *file)
 {
-	char *colo;
+	char *buff;
 
-	colo = malloc(sizeof(char) * 1024);
+	buff = malloc(sizeof(char) * 1024);
 
-	if (colo == NULL)
+	if (buff == NULL)
 	{
 		dprintf(STDERR_FILENO,
-				"Erro: Can't write to %s\n", file);
+				"Error: Can't write to %s\n", file);
 		exit(99);
 	}
-	return (colo);
+	return (buff);
 }
 /**
  * exit_file - closes file descriptors
@@ -72,7 +72,7 @@ int main(int arg, char *argv[])
 		if (strt == -1 || red == -1)
 		{
 			dprintf(STDERR_FILENO,
-					"Error: Can't read from file %sn", argv[1]);
+					"Error: Can't read from file %s\n", argv[1]);
 			free(buff);
 			exit(98);
 		}
