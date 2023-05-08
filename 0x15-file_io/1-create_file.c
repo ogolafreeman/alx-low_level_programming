@@ -19,10 +19,10 @@ int create_file(const char *filename, char *text_content)
 			megatron++;
 	}
 
-	optimus = open(filename, O_CREATE | O_RDWR | O_TRUNC, 0600);
+	optimus = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
 	prime = write(optimus, text_content, megatron);
 
-	if (optimus == -1 prime == -1)
+	if (optimus == -1 || prime == -1)
 		return (-1);
 
 	close(optimus);
