@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-
+#include <errno.h>
 /**
  * file_error - checks if files can be opened.
  * @file_from: file_from.
