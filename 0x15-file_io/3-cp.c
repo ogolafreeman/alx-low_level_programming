@@ -64,7 +64,7 @@ int main(int arg, char *argv[])
 	buff = create_buff(argv[2]);
 	strt = open(argv[1], O_RDONLY);
 	red = read(strt, buff, 1024);
-	dest = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
+	dest = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC | O_APPEND, 0664);
 
 	do {
 		if (strt == -1 || red == -1)
