@@ -1,10 +1,10 @@
-#include "main.h"
 /**
- * _atoi - convert string to numbers
- *
- * Return: n
+ * _atoi - Creates a file.
+ * @s: A pointer to the name of the file to create
+ * Return: ..
  */
-int _atoi(void)
+
+int _atoi(char *s)
 {
-	return (0);
+
 }
